@@ -1,0 +1,324 @@
+
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.imgBlock{
+    width:45%;
+    padding: 25px;
+    height: 80%;
+    min-height: 74vh;
+    max-height: 1000px;
+    min-width: 450px;
+    background-color: #fff;
+    display: inline-block;
+    border: 0.1px solid rgba(0, 0, 0, 0.185);
+}
+
+h4{
+    font-family: 'FreightTextProBook', Helvetica, sans-serif;
+    margin-bottom: 2%;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1.8px;
+}
+.imgBlock img{
+    width: 400px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    vertical-align: 0;
+}
+
+.certBlock{
+    padding: 20px;
+    width:55%;
+    padding: 15px;
+    height: 80%;
+    min-height: 70vh;
+    min-width: 500px;
+    font-size: 0.45vw;
+    float: right;
+    display: inline-block;
+    border: 0.1px solid rgba(0, 0, 0, 0.185);
+}
+
+.data{
+    display: inline-block;
+    float: right;
+    width: 75%;
+    word-wrap: break-word;
+    height: fit-content;
+    font-weight: 600;
+    overflow: hidden;
+    font-family: 'FreightTextProBook', Helvetica, sans-serif;
+    letter-spacing: 0.7px;
+}   
+
+.tag{
+    display: inline-block;
+    width: 25%;
+    height: fit-content;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.548);
+    letter-spacing: 0.7px;
+}
+
+.dataSet{
+    display: flex;
+    /* max-height: 8vh;  */
+    margin-bottom: 1%;
+    overflow: hidden;
+}
+.imageHover{
+    display: none;
+    position: absolute;
+}
+
+.imageHover img{
+    width: 100%;
+    height: 100%;
+}
+
+.qr{
+    width: 15%;
+    right: 10px;
+    bottom: 20px;
+    position: absolute;
+    height: auto;
+}
+
+.qr img{
+    width: 100%;
+    height: 100%;
+}
+
+.typewriter{
+    /* float:left; */
+    width: 150px;
+    height: 20px;
+    display: block;
+    text-align: left;
+}
+.typewriter h6 {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    float: left;
+    letter-spacing: 1px; 
+    animation: typing 3.5s steps(40, end);
+    /* animation-delay: 2s; */
+    color: rgba(54, 133, 18, 0.37);
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100%}
+}
+
+
+.certBlock
+{
+	position: relative;
+	width:45%;
+    padding: 5px;
+    height: 80%;
+    min-height: 74vh;
+    max-height: 1000px;
+    min-width: 450px;
+    padding: 25px;
+	margin: 0 auto;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+.certBlock:before, .certBlock:after
+{
+	position: absolute;
+	width: 40%;
+	height: 10px;
+	content: ' ';
+	left: 12px;
+	bottom: 12px;
+	background: transparent;
+	-webkit-transform: skew(-5deg) rotate(-5deg);
+	-moz-transform: skew(-5deg) rotate(-5deg);
+	-ms-transform: skew(-5deg) rotate(-5deg);
+	-o-transform: skew(-5deg) rotate(-5deg);
+	transform: skew(-5deg) rotate(-5deg);
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	z-index: -1;
+} 
+
+.certBlock:after
+{
+	left: auto;
+	right: 12px;
+	-webkit-transform: skew(5deg) rotate(5deg);
+	-moz-transform: skew(5deg) rotate(5deg);
+	-ms-transform: skew(5deg) rotate(5deg);
+	-o-transform: skew(5deg) rotate(5deg);
+	transform: skew(5deg) rotate(5deg);
+}
+
+
+.verified{
+    width: 80px;
+    float: left;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.verified img{
+    width: 100%;
+    height: 100%;
+}
+
+.imgBlock{
+    position: relative;
+}
+
+#c{
+    position: absolute;
+    width: 90%;
+    height: 100%;
+}
+
+#a{
+    width: 15vw;
+    height: auto;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#download{
+    width: 20%;
+    height: auto;
+    margin-left: 35%;
+    margin-right: auto;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+}
+
+
+.mainDiv{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    padding :20px;
+    border: 20px solid black;
+}
+
+.picDiv{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    border: 20px solid black;
+    background-image: url('./../../../assets/images/ab.jpg');
+    filter: blur(20px);
+}
+
+.certHeader{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 25px;
+}
+
+
+.certHeaderMain{
+    color: white;
+    width: 24%;
+    height: 100%;
+    font-weight: 600;
+    font-size: 1.8em;
+    font-family: 'Orbitron', sans-serif;
+    font-stretch: condensed;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    background-color: black;
+    padding: 20px;
+    margin-right: 1%;
+    text-align: center;
+}
+
+.certHeaderMain img{    
+    width: 100%;
+}
+
+.certHeaderTitle{
+    color: black;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    width:24%;
+    text-align: center;
+    letter-spacing: 1.5px;
+    vertical-align: middle;
+    font-weight: 600;
+    font-family: 'Orbitron', sans-serif;
+    margin-right: 1%;
+    word-wrap: break-word;
+}
+
+.certHeaderText{
+    color: black;
+    display: inline-block;
+    font-size: 8px;
+    font-family: 'Orbitron', sans-serif;
+    word-wrap: break-word;
+    width:24%;
+    margin-right: 1%;
+    font-weight: 500;
+    vertical-align: middle;
+    text-align: justify;
+}
+
+.timeStamp{
+    display: inline-block;
+    font-weight: 600;
+    width:24%;
+    font-size: 0.8em;
+    height: 80%;
+    vertical-align: center;
+    letter-spacing: 1.5px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    vertical-align: middle;
+}
+
+.timeComp{
+    display: block;
+}
+
+@media only screen and (max-width: 1366px) {
+    #data {
+      max-height: 4.5vw;
+      overflow: hidden;
+      white-space: nowrap;
+      cursor: pointer;
+      font-size: 12px;
+    }
+    .certBlock{
+        font-size: 0.64vw;
+    }
+  }
+
+  .modal-backdrop.show{
+      z-index: -1;
+  }

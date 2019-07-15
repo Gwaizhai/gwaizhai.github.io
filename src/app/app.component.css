@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Didact+Gothic|Encode+Sans+Semi+Expanded&display=swap&subset=greek-ext');
+@font-face {
+    font-family: "FreightTextProBook";
+    src: url("./../assets/lib/fonts/FreightTextProBook.woff2") format("woff2"),
+}
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');

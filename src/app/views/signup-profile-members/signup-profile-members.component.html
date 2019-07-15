@@ -1,0 +1,14 @@
+<div class="container">
+  <h4>I'M A MEMBER</h4>
+  <h6>two choices here</h6>
+    <div class="meSelect">
+      <div class="meSelectOpt" id="msel11" (click)="optionClick1(1)">
+        <img class="sh" src="./../../../assets/images/imamember/private.png" style="vertical-align: 0;"/>
+        <img class="sh1" src="./../../../assets/images/imamember/privateS.png" style="vertical-align: 0;"/>
+    </div>
+    <div class="meSelectOpt" id="msel12" (click)="optionClick1(2)">
+      <img class="sh" src="./../../../assets/images/imamember/corporate.png" style="vertical-align: 0;"/>
+      <img class="sh1" src="./../../../assets/images/imamember/corporateS.png" style="vertical-align: 0;"/>
+    </div>
+  </div>
+  <app-nxt-btn text="next" text2="back" [callBackFunction]="callBack2" [callBackFunction1]="callBack3"></app-nxt-btn>

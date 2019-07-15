@@ -1,0 +1,82 @@
+@media only screen and (max-width: 700px) {
+    #share{
+        display: none;
+    }
+    #dash{
+        display: none;
+    }
+    #opt1, #opt2{
+        display: block;
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        padding: 5px;
+        border: 0.7px solid rgba(0, 0, 0, 0.137);
+        background-color: rgba(26, 123, 233, 0.822);
+        border-radius: 5px;
+    }
+
+    #opt1{
+        margin-top: 15px;
+    }
+}
+
+.header{
+    width: 100%;
+    display: block;
+    padding-bottom: 10px;   
+    background-color: white;
+    border-bottom: 0.4px solid rgba(0, 0, 0, 0.308);
+}
+
+.title{
+    display: inline-block;
+    color: rgba(0,0,0,0.7);
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-family: 'Helvetica';    
+    margin-left: 15px;
+    margin-top: 10px; 
+}
+
+.options{
+    position: absolute;
+    right: 0; 
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.opt{   
+    cursor: pointer;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.349);
+    display: inline-block;
+}
+
+.opt:hover{
+    color: black;
+    font-weight:600;
+}
+
+.Dash{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.349);
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.share{
+    margin-right: 12px;
+    width: 14px;
+    height: 16px;
+    display: inline-flex;
+    margin-top:-2px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.349);
+    display: inline-block;
+}
+
+.share:hover{
+    color: rgb(0, 0, 0);
+    display: inline-block;
+}

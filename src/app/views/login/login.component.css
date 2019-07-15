@@ -1,0 +1,39 @@
+
+
+.container{
+    width: 50%;
+    max-width: 400px;
+    min-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+
+.form-control-placeholder{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+input[type=email], input[type=password]{
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+.forgetPassword{
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+.forgetPassword:hover{
+    font-weight: 500;
+}
+
+/* .errorText{
+    display: block;
+    font-weight: 600;
+    color: red;
+} */

@@ -1,0 +1,69 @@
+.container{
+    width: 60%;
+    max-width: 800px;
+    min-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+h4,h6{
+    text-align: center;
+}
+
+.formGrp1{
+    margin-top: 50px;
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.genderOpt{
+    display: inline-block;
+    width: 120px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.img1{
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+.img2{
+    width: 100px;
+    height: 100px;  
+    display: none;
+}
+.genderOpt:hover .img2{
+    display: block;
+}
+
+.genderOpt:hover .img1{
+    display: none;
+}
+
+.optActive .img1{
+    display: none;
+}
+
+.optActive .img2{
+    display: block;
+}
+
+select{
+    display: block;
+    width: 100%;
+    padding:5px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    scroll-behavior: smooth;
+    border:0;
+    border-bottom: 0.4px solid rgba(0, 0, 0, 0.541);
+    outline: 0;
+}

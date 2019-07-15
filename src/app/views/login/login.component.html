@@ -1,0 +1,21 @@
+<app-header></app-header>
+<div id="errorGroup">
+  
+</div>
+<div class="container">
+  <app-logo-with-title title="LOGIN"></app-logo-with-title>
+   <form>
+      <div class="form-group" style="margin-top: 25px;">
+          <label class="form-control-placeholder" for="mailErr">email</label>
+          <input type="email" class="form-control" id='userMail' placeholder="virinchi@uvirinchi.com" required>
+          <!-- <div class="errorText" id="mailErr">please enter valid mail</div> -->
+      </div>
+      <div class="form-group" style="margin-top: 12px;">
+          <label class="form-control-placeholder" for="name">password</label>
+          <input type="password" class="form-control" id='userMail' placeholder="password" required>
+          <!-- <div class="errorText" id="mailErr">password should be atleat 6 character long</div> -->
+      </div>
+   </form>
+   <div class="forgetPassword">Forgot Password?</div>
+</div>
+  <app-nxt-btn text="next"[callBackFunction]="callBack"></app-nxt-btn>

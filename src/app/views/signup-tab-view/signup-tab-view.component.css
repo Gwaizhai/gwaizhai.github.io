@@ -1,0 +1,31 @@
+.button{
+    display: inline-block;
+    width: 19%;
+    padding: 5px;
+    padding-top: 15px;
+    min-width: 150px;
+    text-align: center;
+    color: rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+
+
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+.navButGroup{
+    display: block;
+    overflow: scroll;
+    white-space: nowrap;
+}
+
+.conteiner{
+    position: absolute;
+    height: 80%;
+}

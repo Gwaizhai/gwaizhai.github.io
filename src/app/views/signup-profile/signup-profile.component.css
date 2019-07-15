@@ -1,0 +1,175 @@
+.meSelectOpt{
+    width: 150px;
+    cursor: pointer;
+    height: 150px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+h4,h6{
+    text-align: center;
+}
+
+.meSelect2{
+    margin-left: 120px;
+}
+.meSelectOpt2{
+    width: 150px;
+    cursor: pointer;
+    height: 250px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.sh{
+    width: 100%;
+    height: 100%;
+}
+.sh1{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.meSelect{
+    margin-left: 50px;
+}
+
+.mselectData{
+    letter-spacing: 1px;
+    width: 450px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+
+.acasccascas .sh{
+    display: none;
+}
+
+
+.acasccascas .sh1{
+    display: block;
+}
+
+.container{
+    width: 50%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+/* 
+.meSelectOpt{
+    width: 150px;
+    cursor: pointer;
+    height: 150px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+} */
+
+h4,h6{
+    text-align: center;
+}
+
+.meSelect{
+    margin-left: 120px;
+}
+.meSelectOpt2{
+    width: 120px;
+    cursor: pointer;
+    height: 170px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.meSelectOpt1{
+    width: 180px;
+    cursor: pointer;
+    height: 250px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.sh{
+    width: 100%;
+    height: 100%;
+}
+.sh1{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.meSelect{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 550px;
+}
+
+.meSelect1{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 400px;
+}
+
+
+.mselectData{
+    letter-spacing: 1px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.mselectData1{
+    letter-spacing: 1px;
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.acasccascas .sh{
+    display: none;
+}
+
+
+.acasccascas .sh1{
+    display: block;
+}
+
+.container1{
+    width: 40%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+
+.container2{
+    width: 40%;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.container3{
+    text-align: center;
+    width: 60%;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding-top: 15px;
+}

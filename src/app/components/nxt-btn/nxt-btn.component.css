@@ -1,0 +1,42 @@
+.but1{
+    border-radius: 15px;
+    padding: 5px;
+    background-color: rgba(26, 123, 233, 0.527);
+    width: 200px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+}
+.but{
+    display: none;
+}
+.but2{
+    border-radius: 15px;
+    padding: 5px;
+    border:1px solid rgba(26, 123, 233, 0.527);
+    width: 200px;
+    font-weight: 500;
+    color: rgba(26, 123, 233, 0.527);
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    margin: 15px;
+}
+
+.but1:hover{
+    font-weight: 600;
+    background-color: rgba(26, 123, 233, 0.726);
+}
+
+.but2:hover{
+    font-weight: 600;
+    color: rgba(26, 123, 233, 0.726);
+}
+
+.buttonGroup{
+    display: block;
+    text-align: center;
+    width: 100%;
+}

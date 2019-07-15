@@ -1,0 +1,27 @@
+<app-header></app-header>
+<nav>
+    <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+      <li class="nav-item nav-link   active" id="nav-signup-tab" data-toggle="tab" href="#nav-signup" role="tab" aria-controls="nav-signup" aria-selected="true">sign up</li>
+      <li class="nav-item nav-link " id="nav-nearly-tab" data-toggle="tab" href="#nav-nearly" role="tab" aria-controls="nav-nearly" aria-selected="false">nearly there</li>
+      <li class="nav-item nav-link " id="nav-terms-tab" data-toggle="tab" href="#nav-terms" role="tab" aria-controls="nav-terms" aria-selected="false">terms</li>
+      <li class="nav-item nav-link " id="nav-profileType-tab" data-toggle="tab" href="#nav-profileType" role="tab" aria-controls="nav-profileType" aria-selected="false">profile type</li>
+      <li class="nav-item nav-link " id="nav-intrest-tab" data-toggle="tab" href="#nav-intrest" role="tab" aria-controls="nav-intrest" aria-selected="false">interest</li>
+    </div>
+  </nav>
+  <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-signup" role="tabpanel" aria-labelledby="nav-signup-tab">
+      <app-signup1></app-signup1>
+    </div>
+    <div class="tab-pane fade " id="nav-nearly" role="tabpanel" aria-labelledby="nav-nearly-tab">
+      <app-nearly-signup></app-nearly-signup>
+    </div>
+    <div class="tab-pane fade" id="nav-terms" role="tabpanel" aria-labelledby="nav-terms-tab">
+      <app-signup-terms></app-signup-terms>
+    </div>
+    <div class="tab-pane fade" id="nav-profileType" role="tabpanel" aria-labelledby="nav-profileType-tab">
+      <app-signup-profile></app-signup-profile>
+    </div>
+    <div class="tab-pane fade" id="nav-intrest" role="tabpanel" aria-labelledby="nav-intrest-tab">
+      <app-signup-interests></app-signup-interests>
+    </div>
+  </div>

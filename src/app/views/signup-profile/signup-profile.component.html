@@ -1,0 +1,91 @@
+<div class="container" id="main">
+  <h4>I'M A...</h4>
+  <div class="meSelect">
+    <div class="meSelectOpt" id="msel1" (click)="optionClick(1)">
+        <img class="sh" src="./assets/images/member.png"  style="vertical-align: 0;" />
+        <img class="sh1" src="./assets/images/memberS.png" style="vertical-align: 0;" />
+    </div>
+    <div class="meSelectOpt" id="msel2" (click)="optionClick(2)">
+        <img class="sh" src="./assets/images/artist.png" style="vertical-align: 0;" />
+        <img class="sh1" src="./assets/images/artistS.png" style="vertical-align: 0;" />
+    </div>
+    <div class="meSelectOpt" id="msel3" (click)="optionClick(3)">
+        <img class="sh" src="./assets/images/provider.png" style="vertical-align: 0;" />
+        <img class="sh1" src="./assets/images/providerS.png" style="vertical-align: 0;" />
+    </div>
+</div>
+<div class="mselectData">
+    benafit to the community!soon you can access the global network,as a provider
+
+    offer and arrange sales with logistics effortlessly in your control
+    define your terms, get paid directly and we take no commissions
+    communication are private,engagements anonymously blockchain secured and you have full taiored profile settings8oh,it's also free to use, we just provide registration and guarantee services as you wish
+</div>
+  <app-nxt-btn text="next" text2="back" [callBackFunction]="profileClick" [callBackFunction1]="profileBackClick"></app-nxt-btn>
+</div>
+
+<div class="container1 collapse" id="member">
+    <h4>I'M A MEMBER</h4>
+    <h6>two choices here</h6>
+      <div class="meSelect1">
+        <div class="meSelectOpt1" id="msel11" (click)="optionClick1(1)">
+          <img class="sh" src="./../../../assets/images/imamember/private.png" style="vertical-align: 0;"/>
+          <img class="sh1" src="./../../../assets/images/imamember/privateS.png" style="vertical-align: 0;"/>
+      </div>
+      <div class="meSelectOpt1" id="msel12" (click)="optionClick1(2)">
+        <img class="sh" src="./../../../assets/images/imamember/corporate.png" style="vertical-align: 0;"/>
+        <img class="sh1" src="./../../../assets/images/imamember/corporateS.png" style="vertical-align: 0;"/>
+      </div>
+</div>
+<app-nxt-btn text="next" text2="back" [callBackFunction]="nextClick" [callBackFunction1]="memberBackClick"></app-nxt-btn>
+   
+</div>
+  
+<div class="container2 collapse" id="artist">
+    <h4>I'M A ARTIST</h4>
+    <h6>choose up to three, control different profiles for each</h6>
+    <div class="meSelect">
+        <div class="meSelectOpt2" id="opta1" (click)="optionClick2(1)">
+            <img class="sh" src="./../../../assets/images/imaartist/tattoo.png" style="vertical-align: 0;"/>
+            <img class="sh1" src="./../../../assets/images/imaartist/tattooS.png" style="vertical-align: 0;"/>
+        </div>
+        <div class="meSelectOpt2" id="opta2" (click)="optionClick2(2)">
+            <img class="sh" src="./../../../assets/images/imaartist/artwork.png" style="vertical-align: 0;"/>
+            <img class="sh1" src="./../../../assets/images/imaartist/artworkS.png" style="vertical-align: 0;"/>
+        </div>
+        <div class="meSelectOpt2" id="opta3" (click)="optionClick2(3)">
+            <img class="sh" src="./../../../assets/images/imaartist/bodymodification.png" style="vertical-align: 0;"/>
+            <img class="sh1" src="./../../../assets/images/imaartist/bodymodificationS.png" style="vertical-align: 0;"/>
+        </div>
+        <div style="margin-left: auto; margin-right: auto; width: 400px;">
+            <div class="meSelectOpt2" id="opta4" (click)="optionClick2(4)">
+                <img class="sh" src="./../../../assets/images/imaartist/performance.png" style="vertical-align: 0;"/>
+                <img class="sh1" src="./../../../assets/images/imaartist/performanceS.png" style="vertical-align: 0;"/>
+            </div>
+            <div class="meSelectOpt2" id="opta5" (click)="optionClick2(5)">
+                <img class="sh" src="./../../../assets/images/imaartist/model.png" style="vertical-align: 0;"/>
+                <img class="sh1" src="./../../../assets/images/imaartist/modelS.png" style="vertical-align: 0;"/>
+            </div>
+        </div>
+    </div>
+    <app-nxt-btn text="next" text2="back" [callBackFunction]="nextClick" [callBackFunction1]="artistBackClick"></app-nxt-btn>
+</div>
+<div class="container3 collapse" id="provider">
+    <h4>I'M A PROVIDER</h4>
+    <h6>choose up to three, control different profiles for each</h6>
+      <div class="meSelect">
+        <div class="meSelectOpt" id="optp1" (click)="optionClick3(1)">
+          <img class="sh" src="./../../../assets/images/iamprovider/bussiness.png" style="vertical-align: 0;"/>
+          <img class="sh1" src="./../../../assets/images/iamprovider/bussinessS.png" style="vertical-align: 0;"/>
+        </div>
+        <div class="meSelectOpt" id="optp2" (click)="optionClick3(2)">
+            <img class="sh" src="./../../../assets/images/iamprovider/supplier.png" style="vertical-align: 0;"/>
+            <img class="sh1" src="./../../../assets/images/iamprovider/supplierS.png" style="vertical-align: 0;"/>
+        </div>
+        <div class="meSelectOpt" id="optp3" (click)="optionClick3(3)">
+            <img class="sh" src="./../../../assets/images/iamprovider/venue.png" style="vertical-align: 0;"/>
+            <img class="sh1" src="./../../../assets/images/iamprovider/venueS.png" style="vertical-align: 0;"/>
+        </div>
+      <app-nxt-btn text="next" text2="back" [callBackFunction]="nextClick" [callBackFunction1]="providerBackClick"></app-nxt-btn>
+    </div>
+</div>

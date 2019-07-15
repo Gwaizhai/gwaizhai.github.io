@@ -1,0 +1,35 @@
+<div class="container">
+    <h4>SIGNUP</h4>
+    <h6>collabrating globally</h6>
+    <form>
+      <div class="formGrp1">
+          <label class="form-control-placeholder" style="font-weight: bolder;" for="name">gender</label>
+          <div class="gender">
+              <div class="genderOpt" id='male' (click)="genderSel(1)">
+                  <img id="male" class="img1" src="./assets/images/male.png"/>
+                  <img id="male" class="img2" src="./assets/images/maleS.png"/>
+              </div>
+              <div class="genderOpt" id='female' (click)="genderSel(2)">
+                  <img id="male" class="img1" src="./assets/images/female.png"/>
+                  <img id="male" class="img2" src="./assets/images/femaleS.png"/>
+              </div>
+              <div class="genderOpt" id='mixed' (click)="genderSel(3)">
+                  <img id="male" class="img1" src="./assets/images/mixed.png"/>
+                  <img id="male" class="img2" src="./assets/images/mixedS.png"/>
+              </div>
+            </div>
+          <label class="form-control-placeholder" style="font-weight: bolder;" for="name">location</label>
+            <div class="locationDrps">
+                    <select class="mdb-select md-form colorful-select dropdown-primary" (ng-options)="this.countries" ng-model="selectedCountry" (change)="updateCountry($event)"> 
+                            <option value="">Select Country</option>
+                            <option *ngFor="let c of countries" value={{c}}>{{c}}</option>
+                    </select>
+                    <select (ng-options)="this.cities" style="display: none;" id="cities" ng-model="selectedCity" (change)="updateCity($event)">
+                        <option value="">Select City</option>
+                        <option *ngFor="let c of cities" value={{c}}>{{c}}</option>
+                    </select>
+            </div>
+      </div>
+    </form>
+    <app-nxt-btn text="next" text2="back" [callBackFunction]="callBack" [callBackFunction1]="callBack2"></app-nxt-btn>
+</div>

@@ -1,0 +1,63 @@
+.meSelectOpt{
+    width: 150px;
+    cursor: pointer;
+    height: 150px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+h4,h6{
+    text-align: center;
+}
+
+.meSelect{
+    margin-left: 120px;
+}
+.meSelectOpt{
+    width: 180px;
+    cursor: pointer;
+    height: 250px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.sh{
+    width: 100%;
+    height: 100%;
+}
+.sh1{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.meSelect{
+    margin-left: 50px;
+}
+
+.mselectData{
+    letter-spacing: 1px;
+    width: 450px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+
+.acasccascas .sh{
+    display: none;
+}
+
+
+.acasccascas .sh1{
+    display: block;
+}
+
+.container{
+    width: 40%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding-top: 15px;
+}

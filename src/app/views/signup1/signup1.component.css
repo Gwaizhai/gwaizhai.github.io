@@ -1,0 +1,44 @@
+
+
+.container{
+    width: 60%;
+    max-width: 500px;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+
+.form-control-placeholder{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+input[type=email]{
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    font-size: 1em;
+    display: inline-block;
+    width: 90%;
+    color: black;
+}
+
+input[type=password]{
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    font-size: 1em;
+    width: 90%;
+    color: black;
+}
+
+h4,h6{
+    text-align: center;
+}
+
+/* .errorText{
+    display: block;
+    font-weight: 600;
+    color: red;
+} */
